@@ -4,7 +4,7 @@
 
 1. Get/v2/currency/trade/buy买入订单
 
-URL ```  https://api.ttex.com/v2/currency/trade/buy```
+URL ```  https://api.tacu.com/v2/currency/trade/buy```
 示例
 ```
 # Request
@@ -30,11 +30,11 @@ txNo:订单号
 
 2. Get/v2/currency/trade/sell卖出订单
 
-URL ```   https://api.ttex.com/v2/currency/trade/sell```
+URL ```   https://api.tacu.com/v2/currency/trade/sell```
 示例
 ```
 # Request
-GET    https://api.ttex.com/v2/currency/trade/sell
+GET    https://api.tacu.com/v2/currency/trade/sell
 # Response
 {
         "txNo":153006298350861212
@@ -56,11 +56,11 @@ txNo:订单号
 
 3. Get/v2/currency/trade/cancel撤单
 
-URL ```https://api.ttex.com/v2/currency/trade/cancel```
+URL ```https://api.tacu.com/v2/currency/trade/cancel```
 示例
 ```
 # Request
-GET     https://api.ttex.com/v2/currency/trade/cancel
+GET     https://api.tacu.com/v2/currency/trade/cancel
 # Response
 {
         "data":1530063601833776402
@@ -80,11 +80,11 @@ result:是否成功
 
 4. Get/v2/currency/trade/findOrder查询单个订单信息
 
-URL ```    https://api.ttex.com/v2/currency/trade/findOrder```
+URL ```    https://api.tacu.com/v2/currency/trade/findOrder```
 示例
 ```
 # Request
-GET     https://api.ttex.com/v2/currency/trade/findOrder
+GET     https://api.tacu.com/v2/currency/trade/findOrder
 # Response
 {
     "data":{
@@ -127,11 +127,11 @@ createTimeString:创建时间
 
 5. Get/v2/currency/trade/findEntrust查询未完成订单
 
-URL ```  https://api.ttex.com/v2/currency/trade/findEntrust ```
+URL ```  https://api.tacu.com/v2/currency/trade/findEntrust ```
 示例
 ```
 # Request
-GET https://api.ttex.com/v2/currency/trade/findEntrust
+GET https://api.tacu.com/v2/currency/trade/findEntrust
 # Response
 {
 	"data":[{
@@ -175,11 +175,11 @@ result:是否成功
 
 6. Get/v2/currency/trade/findHistoryEntrust查询历史订单
 
-URL ```  https://api.ttex.com/v2/currency/trade/findHistoryEntrust```
+URL ```  https://api.tacu.com/v2/currency/trade/findHistoryEntrust```
 示例
 ```
 # Request
-GET https://api.ttex.com/v2/currency/trade/findHistoryEntrust
+GET https://api.tacu.com/v2/currency/trade/findHistoryEntrust
 # Response
 {
 	"data":[{
@@ -225,11 +225,11 @@ result:是否成功
 
 1. Get/v2/market/kline获取k线图数据
 
-URL ```https://api.ttex.com/v2/market/kline ```
+URL ```https://api.tacu.com/v2/market/kline ```
 示例
 ```
 # Request
-GET https://api.ttex.com/v2/market/kline
+GET https://api.tacu.com/v2/market/kline
 # Response
 {
      "close":5715.99
@@ -260,7 +260,7 @@ volume:成交量
 
 2. Get/v2/market/alltickers获取全部交易对的信息
 
-URL ```https://api.ttex.com/v2/market/alltickers```
+URL ```https://api.tacu.com/v2/market/alltickers```
 示例
 ```
 # Request
