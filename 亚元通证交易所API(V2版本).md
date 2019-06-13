@@ -8,7 +8,7 @@ URL ```  https://api.tacu.com/v2/currency/trade/buy```
 示例
 ```
 # Request
-GET   https://api.ttex.com/v2/currency/trade/buy
+GET   https://api.tacu.com/v2/currency/trade/buy
 # Response
 {
         "txNo":15300629835086
@@ -264,7 +264,7 @@ URL ```https://api.tacu.com/v2/market/alltickers```
 示例
 ```
 # Request
-GET   https://api.ttex.com/v2/market/alltickers
+GET   https://api.tacu.com/v2/market/alltickers
 # Response
 {
     "ae_btc":{
@@ -336,11 +336,11 @@ vol:成交量
 
 3. Get/v2/market/tickers获取单个币种的信息
 
-URL ```https://api.ttex.com/v2/market/tickers```
+URL ```https://api.tacu.com/v2/market/tickers```
 示例
 ```
 # Request
-GET   https://api.ttex.com/v2/market/tickers
+GET   https://api.tacu.com/v2/market/tickers
 # Response
 {
     "date":1541738697723,
@@ -375,11 +375,11 @@ vol:成交量
 
 4. Get/v2/market/trade获取币种最新成交记录
 
-URL ```https://api.ttex.com/v2/market/trade```
+URL ```https://api.tacu.com/v2/market/trade```
 示例
 ```
 # Request
-GET   https://api.ttex.com/v2/market/trade
+GET   https://api.tacu.com/v2/market/trade
 # Response
 {
      "amount":20.888
@@ -405,11 +405,11 @@ ts:成交时间
 
 1. Get/v2/member/getAccount用户订单信息
 
-URL ```https://api.ttex.com/v2/member/getAccount```
+URL ```https://api.tacu.com/v2/member/getAccount```
 示例
 ```
 # Request
-GET   https://api.ttex.com/v2/member/getAccount
+GET   https://api.tacu.com/v2/member/getAccount
 # Response
 {
      "blockedNum":0
