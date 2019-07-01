@@ -125,6 +125,7 @@ createTimeString:创建时间
 |参数名    |     参数类型 |   必填  |  描述 |
 | :-------- | --------:| :------: |:------:|
 |txNo|  number   |   是     |	订单编号 例如:154581730847678346143	  |
+|code|  number   |   是     |    交易对编号                              |
 
 5. Get/v2/currency/trade/findEntrust查询未完成订单
 
